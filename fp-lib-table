@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name salvation)(type KiCad)(uri ${KIPRJMOD}/christmas-ornament.pretty)(options "")(descr "hallelujah we are free"))
+)
