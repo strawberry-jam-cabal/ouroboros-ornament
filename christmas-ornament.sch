@@ -20,7 +20,7 @@ U 1 1 5CFF495B
 P 7750 3850
 F 0 "D6" V 7788 3733 50  0000 R CNN
 F 1 "LED" V 7697 3733 50  0000 R CNN
-F 2 "salvation:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 7750 3850 50  0001 C CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 7750 3850 50  0001 C CNN
 F 3 "~" H 7750 3850 50  0001 C CNN
 	1    7750 3850
 	0    -1   -1   0   
@@ -76,7 +76,7 @@ U 1 1 5CFF6FB7
 P 7350 3850
 F 0 "D5" V 7388 3733 50  0000 R CNN
 F 1 "LED" V 7297 3733 50  0000 R CNN
-F 2 "salvation:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 7350 3850 50  0001 C CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 7350 3850 50  0001 C CNN
 F 3 "~" H 7350 3850 50  0001 C CNN
 	1    7350 3850
 	0    -1   -1   0   
@@ -100,7 +100,7 @@ U 1 1 5CFF785D
 P 6950 3850
 F 0 "D4" V 6988 3733 50  0000 R CNN
 F 1 "LED" V 6897 3733 50  0000 R CNN
-F 2 "salvation:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 6950 3850 50  0001 C CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 6950 3850 50  0001 C CNN
 F 3 "~" H 6950 3850 50  0001 C CNN
 	1    6950 3850
 	0    -1   -1   0   
@@ -122,7 +122,7 @@ U 1 1 5CFF786B
 P 6550 3850
 F 0 "D3" V 6588 3733 50  0000 R CNN
 F 1 "LED" V 6497 3733 50  0000 R CNN
-F 2 "salvation:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 6550 3850 50  0001 C CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 6550 3850 50  0001 C CNN
 F 3 "~" H 6550 3850 50  0001 C CNN
 	1    6550 3850
 	0    -1   -1   0   
@@ -148,7 +148,7 @@ U 1 1 5CFF7DEA
 P 6150 3850
 F 0 "D2" V 6188 3733 50  0000 R CNN
 F 1 "LED" V 6097 3733 50  0000 R CNN
-F 2 "salvation:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 6150 3850 50  0001 C CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 6150 3850 50  0001 C CNN
 F 3 "~" H 6150 3850 50  0001 C CNN
 	1    6150 3850
 	0    -1   -1   0   
@@ -170,7 +170,7 @@ U 1 1 5CFF7DF8
 P 5750 3850
 F 0 "D1" V 5788 3733 50  0000 R CNN
 F 1 "LED" V 5697 3733 50  0000 R CNN
-F 2 "salvation:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" H 5750 3850 50  0001 C CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 5750 3850 50  0001 C CNN
 F 3 "~" H 5750 3850 50  0001 C CNN
 	1    5750 3850
 	0    -1   -1   0   
@@ -196,8 +196,9 @@ U 1 1 5CFF8C4F
 P 4200 3750
 F 0 "SW1" V 4154 3898 50  0000 L CNN
 F 1 "SW_SPDT" V 4245 3898 50  0000 L CNN
-F 2 "salvation:SW_EG1218_SPDT" H 4200 3750 50  0001 C CNN
-F 3 "" H 4200 3750 50  0001 C CNN
+F 2 "salvation:smd_spdt" H 4200 3750 50  0001 C CNN
+F 3 "https://www.ckswitches.com/media/1422/js.pdf" H 4200 3750 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/JS202011SCQN" H 0   0   50  0001 C CNN "Link"
 	1    4200 3750
 	0    1    1    0   
 $EndComp
@@ -326,4 +327,68 @@ $EndComp
 Wire Wire Line
 	5750 4100 5750 4200
 Connection ~ 5750 4100
+$Comp
+L Device:LED D7
+U 1 1 5D145A04
+P 8150 3850
+F 0 "D7" V 8188 3733 50  0000 R CNN
+F 1 "LED" V 8097 3733 50  0000 R CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8150 3850 50  0001 C CNN
+F 3 "~" H 8150 3850 50  0001 C CNN
+	1    8150 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5D145A0B
+P 8150 3450
+F 0 "R7" H 8218 3496 50  0000 L CNN
+F 1 "68" H 8218 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8190 3440 50  0001 C CNN
+F 3 "~" H 8150 3450 50  0001 C CNN
+	1    8150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 4000 8150 4100
+Wire Wire Line
+	8150 4100 7750 4100
+Wire Wire Line
+	8150 3600 8150 3700
+Wire Wire Line
+	8150 3200 8150 3300
+Wire Wire Line
+	7750 3200 8150 3200
+$Comp
+L Device:LED D8
+U 1 1 5D1462D9
+P 8550 3850
+F 0 "D8" V 8588 3733 50  0000 R CNN
+F 1 "LED" V 8497 3733 50  0000 R CNN
+F 2 "salvation:LED_1206_ReverseMountSquare1.5mm_HandSolder" H 8550 3850 50  0001 C CNN
+F 3 "~" H 8550 3850 50  0001 C CNN
+	1    8550 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5D1462E0
+P 8550 3450
+F 0 "R8" H 8618 3496 50  0000 L CNN
+F 1 "68" H 8618 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8590 3440 50  0001 C CNN
+F 3 "~" H 8550 3450 50  0001 C CNN
+	1    8550 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4000 8550 4100
+Wire Wire Line
+	8550 4100 8150 4100
+Wire Wire Line
+	8550 3600 8550 3700
+Wire Wire Line
+	8550 3200 8550 3300
+Wire Wire Line
+	8150 3200 8550 3200
 $EndSCHEMATC
