@@ -931,9 +931,9 @@
       (xy 2.601121 -16.319842) (xy 2.6063 -16.347862) (xy 2.668467 -16.355311) (xy 2.759065 -16.321426)) (layer F.Cu) (width 0.01))
   )
 
-  (module salvation:wire_hole (layer F.Cu) (tedit 5D1439E4) (tstamp 5D2CF4F4)
+  (module salvation:wire_hole (layer F.Cu) (tedit 5D15A78A) (tstamp 5D2CF4F4)
     (at 152.4 90.424)
-    (fp_text reference REF** (at 0 -1) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -1) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value wire_hole (at 0 1.016) (layer F.Fab)
